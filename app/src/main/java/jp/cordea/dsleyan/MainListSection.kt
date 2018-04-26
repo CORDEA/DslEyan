@@ -4,7 +4,7 @@ import com.xwray.groupie.databinding.BindableItem
 import jp.cordea.dsleyan.databinding.ListItemSectionMainBinding
 
 class MainListSection(
-        private val item: MainListSection
+        private val item: MainSection
 ) : BindableItem<ListItemSectionMainBinding>() {
 
     override fun getLayout(): Int =
