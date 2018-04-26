@@ -9,5 +9,6 @@ class MainListItem(private val item: MainItem) : BindableItem<ListItemMainBindin
             R.layout.list_item_main
 
     override fun bind(viewBinding: ListItemMainBinding, position: Int) {
+        viewBinding.model = item
     }
 }

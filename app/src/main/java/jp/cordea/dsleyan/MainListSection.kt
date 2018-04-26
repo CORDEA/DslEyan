@@ -11,5 +11,6 @@ class MainListSection(
             R.layout.list_item_section_main
 
     override fun bind(viewBinding: ListItemSectionMainBinding, position: Int) {
+        viewBinding.model = item
     }
 }

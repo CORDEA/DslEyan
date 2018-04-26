@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
                 .setContentView<ActivityMainBinding>(this, R.layout.activity_main)
         val items = list {
             section {
+                title = "section 1"
                 item {
                     title = "1"
                 }
@@ -21,6 +22,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             section {
+                title = "section 2"
                 item {
                     title = "3"
                 }
